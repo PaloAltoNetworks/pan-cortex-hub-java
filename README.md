@@ -1,7 +1,7 @@
 # Package com.paloaltonetworks.cortex.hub
 Collection of `Credentials` objects to be used alongside applications leveraging
 the Cortex Data Lake API [See
-https://spring.paloaltonetworks.com/xhoms/pan-cortex-data-lake-java](https://spring.paloaltonetworks.com/xhoms/pan-cortex-data-lake-java)
+https://github.com/paloaltonetworks/pan-cortex-data-lake-java](https://github.com/paloaltonetworks/pan-cortex-data-lake-java)
 
 It also provides the `HubHelper` class for quick prototyping SaaS Components to interface with Cortex hub.
 
@@ -59,7 +59,7 @@ import com.paloaltonetworks.cortex.hub.HubException;
 import com.paloaltonetworks.cortex.data_lake.QueryServiceClient;
 
 public class Example {
-    final static String SQL_CMD = "SELECT * from `6955470833100799268.firewall.traffic` LIMIT 20";
+    final static String SQL_CMD = "SELECT * from `<instance-id>.firewall.traffic` LIMIT 20";
 
     public static void main(String[] args)
             throws InterruptedException, HubException, KeyManagementException, NoSuchAlgorithmException {
