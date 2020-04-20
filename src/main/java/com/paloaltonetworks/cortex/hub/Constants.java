@@ -23,8 +23,9 @@ import java.util.Map;
  * Library-wide constants
  */
 public final class Constants {
-    public final static String USFQDN = "cortex-prd1-api.us.cdl.paloaltonetworks.com";
-    // final static String USFQDN = "api.us.cdl.paloaltonetworks.com";
+    // public final static String USFQDN =
+    // "cortex-prd1-api.us.cdl.paloaltonetworks.com";
+    public final static String USFQDN = "api.us.cdl.paloaltonetworks.com";
     public final static String EUFQDN = "api.nl.cdl.paloaltonetworks.com";
     public final static Map<String, String> APIEPMAP = Map.of("europe", EUFQDN, "americas", USFQDN);
     final static String IDP_TOKEN_URL = "https://api.paloaltonetworks.com/api/oauth2/RequestToken";

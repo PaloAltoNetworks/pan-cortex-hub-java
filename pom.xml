@@ -6,11 +6,10 @@
 
   <groupId>com.paloaltonetworks</groupId>
   <artifactId>cortex.hub</artifactId>
-  <version>0.1</version>
+  <version>0.1.1</version>
 
   <name>pan-cortex-data-hub</name>
-  <!-- FIXME change it to the project's website -->
-  <url>https://spring.paloaltonetworks.com/xhoms/pan-cortex-hub-java</url>
+  <url>https://github.com/paloaltonetworks/pan-cortex-data-lake-java</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
