@@ -6,7 +6,7 @@
 
   <groupId>com.paloaltonetworks</groupId>
   <artifactId>cortex.hub</artifactId>
-  <version>0.1</version>
+  <version>0.1.1</version>
 
   <name>pan-cortex-data-hub</name>
   <url>https://github.com/paloaltonetworks/pan-cortex-data-lake-java</url>
